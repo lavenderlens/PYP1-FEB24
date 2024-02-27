@@ -44,7 +44,9 @@ first_element = my_tuple[0] # reading the first element - 42
 # mutable
 my_dict = {'name': 'Fred', 'age': 33}
 name = my_dict['name'] # reading the value associated with the key 'name'
-my_dict['age'] = 34
+name = my_dict['name'] # reading the value associated with the key 'name'
+my_dict['age'] = 34  # re-assign value of age
+print(my_dict['age'])  #34
 
 # none
 my_none = None
