@@ -21,5 +21,8 @@ print("Hello " + name + ", you are " + str(age + 1) + " years old next year.")#T
 print("Hello {}, you are {} years old next year.".format(name, age + 1))
 print(f"Hello {name}, you are {age + 1} years old next year.")
 
-# TODO
-# version numbers
+# version numbers:
+# CONCATENATION: < 3
+# PLACEHOLDERS WITH .format(): > 3
+# PLACEHOLDERS WITH f-strings: > 3.5
+# PLACEHOLDERS WITH f-strings and triple quotes (preserving line breaks): > 3.7
