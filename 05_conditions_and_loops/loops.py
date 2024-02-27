@@ -1,5 +1,5 @@
 '''
-Loops come in two sorts: teh while loop and the for loop.
+Loops come in two sorts: the while loop and the for loop.
 Every for loop in Python compiles into a while loop.
 the while loop is the underlying structure.
 
@@ -53,10 +53,13 @@ for name in names_tuple:
 unique_surnames = set()
 print(type(unique_surnames))
 # then in a loop split each original list member and add second part to set
-
-# for name in names:
-#     unique_surnames.add(name.split(sep=',')[1])#TODO - fix
-# print(unique_surnames)
+print("using split on comma:")
+csv_names = ['Michael,Jackson', 'David,Bowie', 'Janet,Jackson', 'James,Brown',\
+         'Gordon,Brown', 'David,Hume']
+for name in csv_names:
+    # unique_surnames.add(name.split(',')[1])#TODO - fixed, 1 positional arg (what to split on)
+    unique_surnames.add(name.split(sep=',')[1])# or named arg
+print(unique_surnames)
 
 # we could use a while loop to iterate round our names collection/list
 # but it's a less elegant way than the for
