@@ -1,0 +1,14 @@
+Python: an object-oriented programming lamguage, arguably easier to learn than Java, 
+Python is mostly used for scripting, not app building
+Python was re-written between versions 2 and 3, with BREAKING CHANGES
+Most of what we do hasn't changed for a long time.
+Install fresh from python.org/downloads
+Once installed run in two ways:
+- as a REPL shell, interactive mode 
+- useful for evaluating expressions but not whole suites of code
+- way 2: to execute a pre-written scripting
+Python code, using the standard implementaion of CPython, is interpreted 
+ie the code need not be manually compiled
+Python implementations include Jython (Java bytecode), IronPython
+Python editors: PyCharm, Spyder, Idle (used to come with Python download, aka Eric Idle), 
+Visual Studio, Visual Studio Code, IntelliJ, Eclipse, Sublime, Atom

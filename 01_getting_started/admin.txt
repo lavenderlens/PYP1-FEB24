@@ -1,0 +1,30 @@
+Alan Lavender
+alanl@stayahead.com
+
+07442 173078
+
+Schedule
+________
+09:30       Start
+11:00       Break am
+12:30       LUNCH 1hr
+15:00       Break pm
+17:00       Finish
+
+Outline
+________
+Getting started
+Scripts & Syntax
+Variables & Data Types
+Operators & Expressions
+Conditions & Loops
+Functions
+Objects & Classes
+Containers (Lists, Tuples, Sets, Dicts)
+Strings
+Modules & Packages
+Pattern Matching
+Exception Handling
+Files & the Filesystem
+Databases
+
