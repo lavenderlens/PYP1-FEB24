@@ -26,3 +26,9 @@ print(f"Hello {name}, you are {age + 1} years old next year.")
 # PLACEHOLDERS WITH .format(): > 3
 # PLACEHOLDERS WITH f-strings: > 3.5
 # PLACEHOLDERS WITH f-strings and triple quotes (preserving line breaks): > 3.7
+
+# DICTIONARIES VERSIONING
+# As of Python version 3.7, dictionaries are ordered. 
+# In Python 3.6 and earlier, dictionaries are unordered.
+
+
