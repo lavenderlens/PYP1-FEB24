@@ -1,0 +1,31 @@
+Day 3 Quiz
+----------
+
+1 - 4. Python module `my_module` inside package `mypackage` has one function: my_func
+Match the following import statements 1-3 
+with the ways a,b,c 
+of referencing my_func in the caller:
+
+1. import mypackage
+2. from mypackage.my_module import *
+3. import my_package.my_module 
+4. from mypackage import my_module
+
+A my_module.my_function()
+B my_function()
+C mypackage.my_module.my_function()
+D AttributeError
+
+Answers:
+
+5. Which of the above is, in your trainer's opinion, best for readability?
+
+6. ClassB inherits from ClassA. What should the first line of ClassB's declaration look like?
+
+7. Which dunder method should we override in our own custom classes to obtain a meaningful representation of our objects' properties?
+
+8. Name two methods for reading from a file. 
+
+9. When writing to a file, what is the main difference between mode x and mode w?
+
+10. When using a context manager to perform read/write operations, name two things that are handled automatically, "under the hood"?

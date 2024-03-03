@@ -1,0 +1,15 @@
+Exception handling
+_________________
+
+Exception: an error, some exceptional situation, something taht causes the interpreter to crash
+Compilation error: syntax error in code
+Logic errors: syntactically correct code that doesn't work as expected
+These are NOT candidates for exception handling
+Custom exceptions: we may "raise" these at point sin our code to distinguish from system generated ones
+In a stack trace we will see our own CustomException class name
+Where do we handle exceptions?
+If an exception is not handled in its module it is passed to main to handleIf it is not handled in main the only place for it to be passed to is the interpreter
+Further reading, clear example:
+https://martinxpn.medium.com/custom-exceptions-in-python-creating-custom-exceptions-59-100-days-of-python-4f26de8e851d#
+
+

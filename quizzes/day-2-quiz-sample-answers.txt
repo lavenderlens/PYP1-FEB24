@@ -1,0 +1,60 @@
+Day 2 Quiz
+----------
+1. In function parameters,
+*args packs n number of positional arguments into a _____ ? 
+**kwargs packs n number of named arguments into a _____ ?
+tuple
+dict
+
+2. Which function is pure, a or b?
+b
+
+def a():
+    print(thing)
+
+def b(thing):
+    print(thing)
+
+3. Which function has a closure?
+a
+
+def outer_a():
+    lst = []
+    def add_to_lst(item):
+        nonlocal lst
+        return_value = lst
+        lst.append(item)
+        return return_value
+    return add_to_lst
+
+def outer_b():
+    lst = []
+    def add_to_lst(item):
+        global lst
+        return_value = lst
+        lst.append(item)
+        return return_value
+    return add_to_lst
+
+4. What would I need to add to the code, in just one line, in order to get the "wrong" one above to compile and run?
+lst[]
+
+5. Differentiate between a module and a script.
+Modules typically contain function and class declarations only
+Scripts do stuff / contain procedural code
+
+6. What is the condition we place in a module to stop procedural code from executing in a script that imports from it?
+if __name__ == '__main__': 
+
+7. How does one access the attributes and methods of an object?
+object_name.attribute 
+object_name.method()
+
+8. Class names should be in what style?
+CamelCase
+
+9. Which dunder method is called (indirectly) when you FIRST create an object of a class?
+__init__
+
+10. The first param. of each method in a class is conventionally named self. To what does this param. refer?
+The current object

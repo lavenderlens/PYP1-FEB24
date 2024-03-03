@@ -1,0 +1,45 @@
+Day 1 Quiz
+----------
+1. List some of the characteristics of Python.
+Object oriented
+Dynamically yet strongly typed
+Open source
+named after Monty Python
+
+2. The Python interpreter can be executed in two ways. What are they?
+Interactive mode
+Script mode
+
+3. How should variables and functions be named in Python?
+meaningfully lower_case_underscore_separated under 79 chars per line
+
+4. What does a variable contain, and how should it (almost) always be declared?
+Either a pointer to some value or a reference to a memory address
+they should be Initialised
+
+5. Describe each part of the following statement:
+
+x = 12
+x initialising variable name
+asigning initial valueto literal integer 12
+
+6. List 5 of the fundamental data types.
+string, int, bool, float, long
+list, tuple, dict, None
+
+7. How does one read from a list/dict?
+my_list = [1,2,3]
+my_list[2]
+my_list[len(my_list) - 1] # for last element
+my_dict["key_name"]
+
+8. What is a for loop best suited to do?
+iterating over a list/iterable when the length is known
+known to Python: the len() prop
+known to us: the range() function
+
+9. When will an optional else clause after a loop run?
+At the very end, like a finally block, after the loop has completed (with no break)
+
+10. In a match statement, what is the name for the default case that will execute if no match is found?
+_ 
